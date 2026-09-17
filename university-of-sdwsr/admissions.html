@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admissions — University of SDWSR</title>
+<meta name="description" content="Apply to the University of SDWSR. No entrance exam, no application fee, open to students across Liberia and the developing world.">
+<meta name="author" content="University of SDWSR">
+<meta property="og:title" content="Admissions — University of SDWSR">
+<meta property="og:description" content="Apply to the University of SDWSR. No entrance exam, no application fee, open to students across Liberia and the developing world.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="shell masthead__inner">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+        <path d="M32 2 60 12v24c0 14-11.5 23.6-28 26C15.5 59.6 4 50 4 36V12L32 2Z" fill="#1b4450"/>
+        <path d="m32 15 4.6 9.4 10.4 1.5-7.5 7.3 1.8 10.3L32 38.6l-9.3 4.9 1.8-10.3-7.5-7.3 10.4-1.5L32 15Z" fill="currentColor"/>
+      </svg>
+      <span>University of SDWSR
+        <small>Online &middot; Monrovia, Liberia</small>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="learning-platforms.html">Learning platforms</a></li>
+        <li><a href="faculty.html">Faculty</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="btn btn--gold" href="admissions.html">Apply now</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="shell">
+    <p class="crumb"><a href="index.html">Home</a> / Admissions</p>
+    <h1>Admissions</h1>
+    <p>One short application. No entrance exam, no application fee, and a reply to every applicant.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell split">
+    <div>
+      <div class="head"><svg class="head__star" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 4 62 38h36L69 59l11 37-30-23-30 23 11-37L2 38h36L50 4Z" fill="currentColor"/></svg><h2>Who we admit</h2></div>
+      <p>SDWSR admits anyone aged 16 or over who can read and write English, has access to a phone or computer with an internet connection at least twice a week, and is willing to submit work every week.</p>
+      <p>No prior coding experience is required for any foundation course. Advanced courses ask that you have completed the earlier course in the track, or can show equivalent work.</p>
+
+      <div class="head"><svg class="head__star" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 4 62 38h36L69 59l11 37-30-23-30 23 11-37L2 38h36L50 4Z" fill="currentColor"/></svg><h2>What happens after you apply</h2></div>
+      <div class="grid">
+        <div class="card"><h3>Within five working days</h3><p>Admissions replies by email with a decision or a short follow-up question.</p></div>
+        <div class="card"><h3>On acceptance</h3><p>You receive an invitation to the GitHub organisation, a Google Classroom code, and your first week's lesson.</p></div>
+        <div class="card"><h3>In week one</h3><p>You complete SE-130, the short course on Git and GitHub that every student takes first.</p></div>
+      </div>
+    </div>
+
+    <form class="form" data-remote action="REPLACE_ME_WITH_YOUR_FORM_ENDPOINT" method="POST">
+      <h2 style="font-size:var(--step-2);margin-bottom:0">Apply to study</h2>
+      <p class="form-note">All fields marked required must be completed.</p>
+
+      <div class="field--row">
+        <div class="field"><label for="first">First name (required)</label><input id="first" name="first_name" required autocomplete="given-name"></div>
+        <div class="field"><label for="last">Last name (required)</label><input id="last" name="last_name" required autocomplete="family-name"></div>
+      </div>
+
+      <div class="field"><label for="email">Email (required)</label><input id="email" name="email" type="email" required autocomplete="email"><span class="hint">This is where your decision and class codes are sent.</span></div>
+
+      <div class="field--row">
+        <div class="field"><label for="phone">Phone or WhatsApp</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+        <div class="field"><label for="country">Country (required)</label><input id="country" name="country" required value="Liberia"></div>
+      </div>
+
+      <div class="field">
+        <label for="track">Track you want to join (required)</label>
+        <select id="track" name="track" required>
+          <option value="">Choose a track</option>
+          <option>Frontend development</option>
+          <option>Software engineering</option>
+          <option>Data and databases</option>
+          <option>Artificial intelligence</option>
+          <option>Agentic systems</option>
+          <option>Documentation and media</option>
+          <option>Not sure — advise me</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="device">How will you study? (required)</label>
+        <select id="device" name="device" required>
+          <option value="">Choose one</option>
+          <option>My own phone</option>
+          <option>My own computer</option>
+          <option>A shared or public computer</option>
+          <option>A mix of phone and shared computer</option>
+        </select>
+      </div>
+
+      <div class="field"><label for="why">What do you want to build? (required)</label><textarea id="why" name="motivation" required placeholder="A few sentences is enough. Tell us the problem you would like to solve."></textarea></div>
+
+      <div class="field"><label for="github">GitHub username, if you have one</label><input id="github" name="github" placeholder="yourname"></div>
+
+      <button class="btn btn--gold" type="submit">Send application</button>
+      <p class="form-status" role="status"></p>
+      <p class="form-note">Prefer email? Send the same details to <a href="mailto:admissions@sdwsr.edu.lr">admissions@sdwsr.edu.lr</a>.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="shell">
+    <div class="head"><svg class="head__star" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 4 62 38h36L69 59l11 37-30-23-30 23 11-37L2 38h36L50 4Z" fill="currentColor"/></svg><h2>Fees and support</h2></div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Item</th><th>Amount</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Application</td><td>Free</td><td>No fee to be considered.</td></tr>
+          <tr><td>Foundation courses</td><td>Set by the university</td><td>Replace with your published figure.</td></tr>
+          <tr><td>Advanced courses</td><td>Set by the university</td><td>Replace with your published figure.</td></tr>
+          <tr><td>Data support</td><td>Case by case</td><td>Limited assistance for students with no reliable connection.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="form-note" style="margin-top:20px">Fee figures are left blank deliberately — fill them in <span class="code">admissions.html</span> once the university publishes them.</p>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="shell">
+    <div class="grid grid--4">
+      <div class="footer__brand">
+        <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+        <path d="M32 2 60 12v24c0 14-11.5 23.6-28 26C15.5 59.6 4 50 4 36V12L32 2Z" fill="#12313b"/>
+        <path d="m32 15 4.6 9.4 10.4 1.5-7.5 7.3 1.8 10.3L32 38.6l-9.3 4.9 1.8-10.3-7.5-7.3 10.4-1.5L32 15Z" fill="currentColor"/>
+      </svg>
+        <p>An online university teaching software, data and artificial intelligence to students across Liberia and the wider developing world.</p>
+      </div>
+      <div>
+        <h4>Study</h4>
+        <ul>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="courses.html">Course catalogue</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="learning-platforms.html">Learning platforms</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>University</h4>
+        <ul>
+          <li><a href="about.html">About SDWSR</a></li>
+          <li><a href="faculty.html">Faculty and leadership</a></li>
+          <li><a href="news.html">News and notices</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="mailto:admissions@sdwsr.edu.lr">admissions@sdwsr.edu.lr</a></li>
+          <li><a href="mailto:registrar@sdwsr.edu.lr">registrar@sdwsr.edu.lr</a></li>
+          <li><a href="https://github.com/">GitHub organisation</a></li>
+          <li><a href="https://classroom.google.com/">Google Classroom</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; <span data-year>2026</span> University of SDWSR. Founded 6 May 2025 by Dr. Samuel D. Wilson Sr.</span>
+      <span>Managed and operated by SDW Jr.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/courses.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
